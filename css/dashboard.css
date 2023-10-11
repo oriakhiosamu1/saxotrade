@@ -1,0 +1,172 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: grey;
+}
+
+/* desktop view */
+@media screen and (min-width: 1024px) {
+    .dashboard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .user {
+        width: 80%;
+        border: 3px solid white;
+        margin: 20px 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 5px;
+        background-color: #f5f6f7;
+        box-shadow: 0 0 1px grey;
+    }
+
+    .user-name {
+        padding-top: 20px;
+    }
+
+    .user-name h2{
+        color: black;
+        font-weight: bold;
+    }
+
+    .box {
+        background-color: white;
+        border-radius: 5px;
+        margin: 40px 0;
+        padding: 40px;
+    }
+
+    .dormant {
+        margin-bottom: 30px;
+    }
+
+    .dormant h4{
+        color: #30AE69;
+        font-weight: bold;
+    }
+
+    .dollar {
+        border-bottom-style: solid;
+        margin-bottom: 30px;
+        border-bottom-width: 1px;
+    }
+
+    .balance {
+        margin-bottom: 30px;
+    }
+
+    .btc {
+        margin-bottom: 30px;
+    }
+
+    .total button {
+        background-color: #30AE69;
+        border-style: none;
+        color: white;
+        font-weight: bold;
+        padding: 20px 50px;
+        border-radius: 5px;
+        box-shadow: 0 0 1px grey;
+    }
+
+    .user-profile h3{
+        color: #073687;
+        font-weight: bold;
+    }
+
+    .user-profile {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .nav-bar {
+        margin: 20px 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        background-color: #f5f6f7;
+        box-shadow: 0 0 1px grey;
+        border: 3px solid white;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .image{
+        border: 2px solid white;
+        box-shadow: 0 0 3px grey;
+        border-radius: 5px;
+    }
+
+    .profile-name {
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 15px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+    }
+
+    .menu a {
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+
+    /* payment method / investment page */
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        border-style: none;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+    .coincloud {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 1px grey;
+        width: 40%;
+    }
+
+    .logo {
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .logo img {
+        margin: auto;
+    }
+
+    .details {
+        padding: 50px 30px 30px 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .short {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+ 
+    /* cryptocurrency exchanger */
+}
