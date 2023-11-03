@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+input:focus {
+    outline: none;
+}
+
 /* input:focus {
     border: none;
 } */
@@ -38,6 +42,15 @@ body {
         padding-left: 30px;
         padding-right: 30px;
         width: 100%;
+    }
+
+    .form-control{
+        margin-bottom: 20px;
+    }
+
+    .form-control option {
+        background-color: #EBEBEB;
+        color: grey;
     }
     
     .form-input input{
